@@ -1,8 +1,11 @@
-let accountBalance = 400;
-let depositAmountFromUser = "10";
+export default function () {
+  // Start coding here
+  let accountBalance = 400;
+  let depositAmountFromUser = "10";
 
-accountBalance = accountBalance + depositAmountFromUser;
+  accountBalance = accountBalance + depositAmountFromUser;
 
-let accountBalanceMessage = `Your account balance is ${accountBalance}`;
+  let accountBalanceMessage = `Your account balance is ${accountBalance}`;
 
-console.log(accountBalanceMessage);
+  return accountBalanceMessage;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "type-conversion",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "ex-1.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techupth/js-hh-type-conversion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techupth/js-hh-type-conversion/issues"
+  },
+  "homepage": "https://github.com/techupth/js-hh-type-conversion#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.3"
+  }
+}
